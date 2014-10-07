@@ -6,6 +6,7 @@
 	ci = commit
 	co = checkout
 	br = branch
+	clone = clone --recursive
 [color]
 	ui = auto
 [core]
@@ -14,4 +15,7 @@
 	external = meld
 [mergetool]
 	keepBackup = false
-
+[merge]
+	tool = meld
+[push]
+	default = simple
