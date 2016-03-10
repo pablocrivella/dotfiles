@@ -11,11 +11,11 @@
 	ui = auto
 [core]
 	autocrlf = false
-[diff]
-	external = meld
-[mergetool]
-	keepBackup = false
-[merge]
-	tool = meld
+	excludesfile = /Users/pablocrivella/.gitignore_global
+	editor = mvim -v
 [push]
 	default = simple
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
