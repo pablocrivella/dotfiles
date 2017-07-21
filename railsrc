@@ -1,0 +1,4 @@
+--skip-turbolinks
+--skip-test
+--webpack
+-d postgresql
