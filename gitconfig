@@ -2,16 +2,12 @@
 	name = Pablo Crivella
 	email = pablocrivella@gmail.com
 [alias]
-	st = status
-	ci = commit
-	co = checkout
-	br = branch
 	clone = clone --recursive
 [color]
 	ui = auto
 [core]
 	autocrlf = false
-	excludesfile = /Users/pablocrivella/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	editor = mvim -v
 [push]
 	default = simple

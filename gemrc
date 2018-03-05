@@ -1,3 +1,4 @@
-:sources:
-- https://rubygems.org
-gem: --no-document
+sources:
+  - https://rubygems.org
+
+gem: --no-document --suggestions
